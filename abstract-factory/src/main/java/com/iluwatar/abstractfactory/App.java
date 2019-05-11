@@ -138,7 +138,7 @@ public class App {
     LOGGER.info(app.getCastle().getDescription());
     LOGGER.info(app.getKing().getDescription());
 
-    LOGGER.info("Orc Kingdom");
+    LOGGER.info("Aru Kingdom");
     app.createKingdom(FactoryMaker.makeFactory(KingdomType.ORC));
     LOGGER.info(app.getArmy().getDescription());
     LOGGER.info(app.getCastle().getDescription());

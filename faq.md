@@ -70,7 +70,7 @@ Fluent interfaces are sometimes confused with the Builder pattern, because they 
 
 Memento is typically used to implement rollback/save-point support. Example we might want to mark the state of an object at a point in time, do some work and then decide to rollback to the previous state. 
 
-On the other hand serialization may be used as a tool to save the state of an object into byte[] and preserving the contents in memory or disk. When someone invokes the memento to revert object's previous state then we can deserialize the information stored and recreate previous state. 
+On the other hand, serialization may be used as a tool to save the state of an object into byte[] and preserving the contents in memory or disk. When someone invokes the memento to revert object's previous state then we can deserialize the information stored and recreate previous state. 
 
 So Memento is a pattern and serialization is a tool that can be used to implement this pattern. Other ways to implement the pattern can be to clone the contents of the object and keep track of those clones.
 
